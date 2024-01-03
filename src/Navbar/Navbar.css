@@ -1,0 +1,94 @@
+/*.main{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:#A94064;
+    border: 3px solid=0px;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+  }
+  .nav-bar{text-align:right;
+    word-spacing:40px;
+    font-size: 15px;
+    font-family: arial;
+  }
+  .logo{
+    text-decoration: none;
+    color: lightpink;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  
+  .nav-bar ul li a{
+    text-align: left;
+    text-decoration: none;
+    color:bisque;
+  }
+  
+  .nav-bar ul li{
+    display: inline-block;
+    -webkit-transition: border 1s, border-radius 1s, padding 1s, background-color 1s, color 1s;
+  }
+  
+  .nav-bar ul li:hover{
+    border-bottom: 2px solid gray;
+    border-radius: 20px;
+    padding: 0px;
+    background-color:dimgray;
+    color: white;
+  }*/
+
+ *{
+  margin:0px;
+  padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #A94064;
+    padding: 20px 15px;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 3px solid=0px;
+}
+
+.logo{
+    text-decoration: none;
+    color: lightpink;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav-list li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-list a:hover{
+    color: lightpink;
+}
+
+button{
+    margin-right: 10px;
+    border: none;
+    padding: 5px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
